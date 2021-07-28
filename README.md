@@ -5,7 +5,7 @@ A simple Python bot which will send you an email when driving test cancellations
 We are hoping to allow you to connect your bot to our cloud serivces at https://copadrivingtest.co.uk/ soon so that you can easily manage cancellations via SMS through our website. Check back soon for an update!
 
 ## About
-Due to current high demand for driving tests I have built a simple python script which will quickly check the driving test booking page for any available tests and email you if there are any free. It is also free to use and fairly simple, just put your current test in to the script file and it will do the rest for you.
+Due to current high demand for driving tests I have built a simple python script which will quickly check the driving test booking page for any available tests. It is also free to use and fairly simple, just put your current test in to the script file and it will do the rest for you. You can also configure your own notification system such as using gmail.
 
 ## Requirements
 - Latest version of captcha buster https://github.com/dessant/buster/releases/latest
