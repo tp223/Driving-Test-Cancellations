@@ -11,9 +11,9 @@ Due to current high demand for driving tests I have built a simple python script
 - Latest version of captcha buster https://github.com/dessant/buster/releases/latest
 - Google Chrome (https://www.google.com/intl/en_uk/chrome/) or Chromium
 - PIP packages:
-- - selenium
-- - undetected-chromedriver
-- - configparser
+  - selenium
+  - undetected-chromedriver
+  - configparser
 
 ## Limitations
 - You cannot book tests unless you are at the computer. However, this will be fixed soon with our cloud connection.
