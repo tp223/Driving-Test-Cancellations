@@ -1,5 +1,13 @@
 # Driving Test Cancellations
-A simple Python bot which will send you an email when driving test cancellations become available at the selected test center.
+A simple Python bot which will search, reserve and book driving tests for you using the DVSA website.
+
+## Features
+- Reserves earlier tests for you automatically
+- Can bypass DVSA firewalls using chrome extensions
+- You can easily implament your own notification system
+- Seach for multiple bookings
+- Waits in the queue for you when the site is busy
+- FREE!
 
 ## Cloud Connection (Coming Soon)
 We are hoping to allow you to connect your bot to our cloud serivces at https://copadrivingtest.co.uk/ soon so that you can easily manage cancellations via SMS through our website. Check back soon for an update!
@@ -18,5 +26,4 @@ Due to current high demand for driving tests I have built a simple python script
 ## Limitations
 - You cannot book tests unless you are at the computer. However, this will be fixed soon with our cloud connection.
 - It gets stuck waiting for a user input on weather to book a test.
-
-submit any queries to hello@copadrivingtest.co.uk
+- You can only use your booking refrence and not your theory test pass number
