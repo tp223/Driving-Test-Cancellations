@@ -7,8 +7,13 @@ We are hoping to allow you to connect your bot to our cloud serivces at https://
 ## About
 Due to current high demand for driving tests I have built a simple python script which will quickly check the driving test booking page for any available tests and email you if there are any free. It is also free to use and fairly simple, just put your current test in to the script file and it will do the rest for you.
 
-## Configuration (In Progress)
-1) 
+## Requirements
+- Latest version of captcha buster https://github.com/dessant/buster/releases/latest
+- Google Chrome (https://www.google.com/intl/en_uk/chrome/) or Chromium
+- PIP packages:
+- - selenium
+- - undetected-chromedriver
+- - configparser
 
 ## Limitations
 - You cannot book tests unless you are at the computer. However, this will be fixed soon with our cloud connection.
