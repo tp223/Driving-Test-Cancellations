@@ -296,6 +296,9 @@ while runningLoop:
                         
                     activeDrivers[licenceInfo["licence-id"]] = webdriver.Chrome(executable_path=chromedriverPath, chrome_options=chrome_options)
                     driver = activeDrivers[licenceInfo["licence-id"]]
+
+                    driver.execute_cdp_cmd('Network.setBlockedURLs', {"urls": ["https://driverpracticaltest.dvsa.gov.uk/nions-to-vnse-the-Bewarfish-so-like-here-hoa-Mon"]})
+                    driver.execute_cdp_cmd('Network.enable', {})
                     
                     print("Launching queue")
                     driver.get(dvsa_queue_url)
@@ -331,7 +334,12 @@ while runningLoop:
                                 print("Firewall has been delt with ;)")
 
                         if (queueComplete):
+                            driver.find_element_by_id("driving-licence-number").click()
+                            random_sleep(1, 1)
                             input_text_box("driving-licence-number", str(licenceInfo["licence"]), driver)
+                            random_sleep(1, 1)
+                            driver.find_element_by_id("application-reference-number").click()
+                            random_sleep(1, 1)
                             input_text_box("application-reference-number", str(licenceInfo["booking"]), driver)
                             random_sleep(1, 1)
                             driver.find_element_by_id("booking-login").click()
