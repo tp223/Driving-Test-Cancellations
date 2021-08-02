@@ -875,10 +875,10 @@ while runningLoop:
                                         "short": shortNotice
                                     })
 
-                                    test_found(licenceInfo["center"][0], last_date, test_time, shortNotice)
+                                    test_found(search_centre, last_date, test_time, shortNotice)
                                     
                                     # Put test notification here
-                                    print("Centre: " + licenceInfo["center"][0])
+                                    print("Centre: " + search_centre)
                                     print("Date: " + last_date)
                                     print("Time: " + test_time)
 
