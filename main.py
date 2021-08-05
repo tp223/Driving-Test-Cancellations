@@ -356,7 +356,7 @@ while runningLoop:
                                 print("Test Date: " + test_date_temp)
                                 print("Test Center: " + test_center_temp)
 
-                                if ("Your booking has been cancelled. You'll need to either re-book your test or call the " in driver.find_element_by_id("main").get_attribute('innerHTML')):
+                                if ("Your booking has been cancelled. You’ll need to either re-book your test or call the " in driver.find_element_by_id("main").get_attribute('innerHTML')):
                                     print("Test has been cancelled")
                                     licenceInfo["active"] = False
                                 else:
