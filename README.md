@@ -11,10 +11,6 @@ A simple Python bot which will search, reserve and book driving tests for you us
 - Waits in the queue for you when the site is busy
 - FREE!
 
-## Cloud Connection (Coming Soon)
-
-We are hoping to allow you to connect your bot to our cloud services at https://copadrivingtest.co.uk/ soon so that you can easily manage cancellations via SMS through our website. Check back soon for an update!
-
 ## About
 
 Due to current high demand for driving tests I have built a simple python script which will quickly check the driving test booking page for any available tests. It is also free to use and fairly simple, just put your current test in to the script file and it will do the rest for you. You can also configure your own notification system such as using gmail.
