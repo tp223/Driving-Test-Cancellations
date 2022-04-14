@@ -2,6 +2,9 @@
 
 A simple Python bot which will search, reserve and book driving tests for you using the DVSA website.
 
+## Discontinued
+Sadly this version of the bot no longer works due to restrictions put in place by the DVSA.
+
 ## Features
 
 - Reserves earlier tests for you automatically
